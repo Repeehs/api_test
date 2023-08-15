@@ -83,9 +83,15 @@ module.exports = function (app) {
      *       "message": "invalid input"
      *     }
      */
+/*    app
+        .route('/api/v1/accounts/:id')
+        .put(accountService.update)
+        .delete(accountService.delete)
+*/
     app.post('/api/v1/accounts', accountService.create);
     app.put('/api/v1/accounts/:id', accountService.update);
     app.put('/api/v1/accounts', accountService.updates);
     app.delete('/api/v1/accounts/:id', accountService.delete);
     app.delete('/api/v1/accounts', accountService.deletes);
+
 };
