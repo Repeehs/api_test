@@ -17,8 +17,8 @@
 
       "DB_HOST":"127.0.0.1",
       "DB_PORT": "3306",
-      "DB_USER": "root",
-      "DB_PASSWORD": "",
+      "DB_USER": "audiobook",
+      "DB_PASSWORD": "audiobook",
       "DB_NAME": "audio_book",
       "DB_DIALECT": "mysql"
     },
@@ -39,7 +39,7 @@
       "DB_PORT": "3306",
       "DB_USER": "sheeper",
       "DB_PASSWORD": "H.S20T.H04",
-      "DB_NAME": "newDatabase",
+      "DB_NAME": "audio_book",
       "DB_DIALECT": "mysql"
     }
   }]
